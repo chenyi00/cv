@@ -19,19 +19,19 @@
 \usepackage{multicol}
 \usepackage{graphics}
 \usepackage{textcomp}
+\usepackage{fontawesome}
 
 
 
 \setlength{\parindent}{0cm}
 \setlength{\parskip}{2mm}
-\renewcommand{\baselinestretch}{1}
+\renewcommand{\baselinestretch}{1.25}
 
 
 \newcommand{\MyName}{Chenyi ``Lisa'' Zhu}
 \newcommand{\MySchool}{JHU $'$22}
 \newcommand{\MyContact}{czhu26@jhu.edu}
 
-\renewcommand{\baselinestretch}{1}
 \newcommand{\DocTitle}{APS/IBM Internship for Undergraduate Women - Letter}
 \fancypagestyle{plain}{
   \fancyhead{}
@@ -57,10 +57,10 @@
 
 \geometry{
 %a4paper,
-left = 0.6in,
-right = 0.6in,
-top = 0.6in,
-bottom = 0.6in,
+left = 0.5in,
+right = 0.5in,
+top = 0.5in,
+bottom = 0.5in,
 }
 
 \hypersetup{
@@ -73,32 +73,48 @@ bottom = 0.6in,
 \begin{document}
 
 %\begin{center}
+\iffalse
 \columnratio{0.30, 0.40, 0.30}
+
 \begin{paracol}{3}
-	\raggedright
-	{\LARGE \textbf{Lisa Zhu}}
+	%\begin{center}
+	\textcolor{white}{ }\\
+	{\Huge \textbf{Lisa Zhu}}
+	%\end{center}
+	
 	\switchcolumn
 	\begin{center}
 	\begin{tabular}{l l}
-		\textbf{Github:} & \href{https://github.com/chenyi00}{github.com/chenyi00}\\
+		\textbf{Github:} & \href{https://github.com/chenyi00}{github.com/chenyi00}\\~\\
 		\textbf{LinkedIn:} & \href{https://www.linkedin.com/in/chenyi-jhu/}{linkedin.com/in/chenyi-jhu}\\
 		%\textbf{Portfolio:} &\href{https://ugrad.cs.jhu.edu/~czhu26/}{ugrad.cs.jhu.edu/$\sim$czhu26}\\
 	\end{tabular}
 	\end{center}
 	\switchcolumn
-	\iffalse
+	%\iffalse
 	\begin{center}
-	\begin{tabular}{r}
-		(443) 604-3051\\
-		czhu26@jhu.edu\\
+	\begin{tabular}{l l}
+		\textbf{Phone:} & (443) 604-3051\\~\\
+		\textbf{Email:} & czhu26@jhu.edu\\
 	\end{tabular}
 	\end{center}
-	\fi
-	\raggedleft
-	\textbf{Phone:} (443) 604-3051\\%~\\
-	\textbf{Email:} czhu26@jh.edu\\
+	%\fi
+	%\raggedleft
+	%\textbf{Phone:} (443) 604-3051\\%~\\
+	%\textbf{Email:} czhu26@jh.edu\\
 \end{paracol}
+\fi
 %\vspace{-2mm}
+
+\begin{center}
+	{\Huge \textbf{Chenyi Zhu}}\\
+	\vspace{2mm}
+	{
+	\small Johns Hopkins University, Baltimore, MD\\
+	\footnotesize
+	\faEnvelopeSquare \, \href{mailto:czhu26@jhu.edu}{czhu26@jhu.edu} $\bullet$ \faHome \, \href{https://chenyi00.github.io/}{chenyi00.github.io} $\bullet$ \faLinkedinSquare \, \href{https://www.linkedin.com/in/chenyi-jhu/}{chenyi-jhu} $\bullet$ \faGithub \, \href{https://github.com/chenyi00}{chenyi00}}
+\end{center}
+\vspace{-2mm}
 
 %Education section
 {\large \textbf{\textsc{Education}}}
@@ -108,12 +124,12 @@ bottom = 0.6in,
 \begin{paracol}{2}
 	\textbf{The Johns Hopkins University}\\
 	\textit{Majors: Computer Science, Applied Math \& Statistics}\\
-	\textit{Minor: Computer Integrated Surgery}\\
-	\textit{GPA: 3.50/4.00}
+	\textit{GPA: 3.50/4.00}\\
+	\textit{Honor: Dean's List}
 	\switchcolumn
 	\raggedleft\textbf{Baltimore, MD}\\
-	\raggedleft\textit{2018$\sim$2022}\\~\\
-	\raggedleft\textit{2018$\sim$2020}\\
+	\raggedleft\textit{2018$\sim$2022}\\~\\~\\
+	%\raggedleft\textit{2018$\sim$2020}\\~\\
 \end{paracol}
 \vspace{3mm}
 
@@ -168,7 +184,8 @@ bottom = 0.6in,
  %Astronomy (\textbf{JHU})}
 \vspace{-2mm}
 \begin{itemize}
-	\item TA for Physics II, a core engineering course. Attended lectures twice a week, taught Friday sections to help students review class materials and solve additional problems, and held office hours weekly.
+	\item TA for Physics II, a core engineering course. \vspace{-3mm}
+	\item Attended lectures twice a week, taught Friday sections to help students review class materials and solve additional problems, and held office hours weekly.
 	\vspace{-3mm}
 	\item Compiled supplementary notes on the mathematics of electromagnetism for students to help understand the material.
 \end{itemize}
@@ -196,8 +213,6 @@ Pain Institute (\textbf{JHMI})}
 	with MATLAB and categorized each waveform based on its distinct stimulation patterns.
 	\vspace{-3mm}
 	\item Conducted testing trials and used ImageJ cellular analysis software to examine stimulation effects on DRG neurons.
-	\vspace{-3mm}
-	\item Created neuro-stimulation pathway models based on the principles of gate control theory.
 \end{itemize}
 \vspace{-2mm} 
 
@@ -250,7 +265,7 @@ Design (\textbf{CBID}); Martin Jacobsen $\cdot$ Becton Dickson (\textbf{BD})}
 %\vspace{-2mm} 
 
 % Volunteer & leadership
-{\large \textbf{\textsc{Volunteer \& Leadership Experiences}}}
+{\large \textbf{\textsc{Volunteer \& Leadership}}}
 \vspace{5pt}
 \hrule
 
@@ -326,24 +341,26 @@ Design (\textbf{CBID}); Martin Jacobsen $\cdot$ Becton Dickson (\textbf{BD})}
 \hrule
 \columnratio{0.12}
 \begin{paracol}{2}
+\raggedleft
 \textbf{Technical:}\\
 \textbf{Courses:}\\~\\~\\
 %\textbf{Hobbies:}\\
 \textbf{Certificates:}\\~\\
 \textbf{Languages:}\\
 \textbf{Interests:}\\
-\textbf{Honors:}
+%\textbf{Honors:}
 \switchcolumn
+\raggedright
 Git, Java, C/C++, Python, MATLAB, \LaTeX, HTML/CSS/JS, R, AWS, CAD, Arduino, Raspberry Pi.\\
 %, AWS, Microsoft Azure, Office, Linux, PHP\\
 Algorithms, Object-Oriented Programming, Human Language Technology, AI, Data Structures, Intermediate Programming, Optimization I, Probability \& Statistics, Linear Algebra \& Differential Equations, Linear Signals \& Systems, Discrete Math, Calculus III, Electromagnetism, Mechanics.\\
 %Circuit Design, Microsoft Office, 
 %Photography, piano, reading, travelling.\\
-Bloomberg Certificate (Bloomberg, 6/2020), Radio Operator (ARRL, 6/2019), Telescope Operator (Maryland Space Grant Consortium, 6/2019).\\
-Mandarin (fluent), English (fluent), French (intermediate), Latin (elementary).\\
+Bloomberg Certificate (Bloomberg L.P., 6/2020), Radio Operator (ARRL, 6/2019), Telescope Operator (Maryland Space Grant Consortium, 6/2019).\\
+English (fluent), Mandarin (fluent), French (intermediate), Latin (elementary).\\
 Software Engineering, Machine Translation, Computational Research, Aerospace Engineering.\\
-Dean's List.
+%Dean's List.
 \end{paracol}
-\thispagestyle{empty}
+%\thispagestyle{empty}
 \end{document}
 	
